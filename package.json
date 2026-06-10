@@ -1,0 +1,17 @@
+{
+  "name": "tweettube",
+  "version": "1.0.0",
+  "description": "My first backend project",
+  "keywords": [
+    "javascript",
+    "react",
+    "backend"
+  ],
+  "license": "ISC",
+  "author": "Himanshu Singh Chauhan",
+  "type": "module",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  }
+}
