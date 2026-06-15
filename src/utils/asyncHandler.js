@@ -19,7 +19,7 @@ const asyncHandler = (fuc) => async (req, res, next) => {
 // method for promies
 
 const asyncHandler = (requestHandler) => {
-    (req,res,next) => {
+    return (req,res,next) => {
         Promise.resolve(requestHandler(req,res,next)).catch((err)=>(next(err)))
     }
 }
